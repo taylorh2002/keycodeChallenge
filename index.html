@@ -3,19 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Keycode</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <ul id="list">
+    <ul class="list">
         <li>event.key</li>
         <li>event.which</li>
         <li>event.code</li>
     </ul>
 
-    <input id="input" type="text" size="40" onkeydown="myFunction(event)">
-    <p id="eventKey"></p>
-    <p id="eventWhich"></p>
-    <p id="eventCode"></p>
+    <h1 class="centerBlock">Press a key in the box below</h1>
+    <input class = "centerBlock"id="input" type="text" size="40" onkeydown="myFunction(event)">
+    
+    <ul class="list">
+        <li id="eventKey"></li>
+        <li id="eventWhich"></li>
+        <li id="eventCode"></li>
+    </ul> 
+
 
     <script src="app.js"></script>
 </body>

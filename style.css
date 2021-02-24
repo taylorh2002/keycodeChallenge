@@ -1,0 +1,28 @@
+body
+{
+    background-image: url("assets/backgroundImage.png");
+}
+
+.list
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: mintcream;
+    font-size:xx-large
+}
+
+h1 
+{
+    color: mintcream;
+    text-align: center;
+}
+
+.centerBlock
+ {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
