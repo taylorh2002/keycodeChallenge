@@ -1,6 +1,7 @@
 body
 {
     background-image: url("assets/backgroundImage.png");
+    margin-top: 25%;
 }
 
 .list
